@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="27px" viewBox="0 0 45 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>right-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Daily-UI" sketch:type="MSArtboardGroup" transform="translate(-917.000000, -503.000000)" fill="#0026FF">
+            <g id="right-arrow" sketch:type="MSLayerGroup" transform="translate(917.000000, 503.000000)">
+                <path d="M30.6001007,26.6546376 C30.8310225,26.8850757 31.1341814,27 31.4373403,27 C31.7404991,27 32.043658,26.8850757 32.2745799,26.6546376 L44.6531732,14.3329804 C45.1156089,13.8726937 45.1156089,13.1265696 44.6531732,12.6662829 L32.2745799,0.345215033 C31.8127362,-0.115071678 31.0619443,-0.115071678 30.6001007,0.345215033 C30.1376649,0.805501744 30.1376649,1.55162591 30.6001007,2.01191262 L41.012306,12.3763199 L1.18421442,12.3763199 C0.530528061,12.3763199 0,12.9043825 0,13.5550311 C0,14.2056796 0.530528061,14.7337422 1.18421442,14.7337422 L40.9015819,14.7337422 L30.6001007,24.9873507 C30.1370728,25.4482267 30.1370728,26.1937616 30.6001007,26.6546376 L30.6001007,26.6546376 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
