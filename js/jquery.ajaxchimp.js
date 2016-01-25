@@ -1,3 +1,5 @@
+/* Email submission */
+
 (function($) {
     'use strict';
     $.ajaxChimp = {
