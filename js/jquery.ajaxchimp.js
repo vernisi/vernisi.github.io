@@ -8,6 +8,8 @@
 
             // Valid
             'We have sent you a confirmation email': 0,
+
+            // Errors
             'Email address cannot be blank': 1,
             'An email address must contain a single @': 2,
             'The domain portion of the email address is invalid (the portion after the @: )': 3,
