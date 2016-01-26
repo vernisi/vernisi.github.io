@@ -4,7 +4,7 @@
     'use strict';
     $.ajaxChimp = {
         responses: {
-            // Conditions
+            // Condition Statements
 
             // Valid
             'We have sent you a confirmation email': 0,
