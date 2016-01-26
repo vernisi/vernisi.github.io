@@ -5,6 +5,8 @@
     $.ajaxChimp = {
         responses: {
             // Conditions
+
+            // Valid
             'We have sent you a confirmation email': 0,
             'Email address cannot be blank': 1,
             'An email address must contain a single @': 2,
