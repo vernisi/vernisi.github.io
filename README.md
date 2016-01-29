@@ -10,7 +10,7 @@ Over the course of 1 year, you'll design 52 different elements for mobile, web, 
 
 2. Some prompts are intentionally high-level, so it's up to you to interpret how to design it (i.e. mobile vs web, full page vs one component, etc.)
 
-3. Post your work to [Dribbble](https://www.dribbble.com) (if you're a member) or Twitter/Facebook/Instagram with #vernisi and your prompt number (ex. "Just finished my first design for #vernisi #01")
+3. Post your work to [Dribbble](https://www.dribbble.com "Dribbble") (if you're a member) or Twitter/Facebook/Instagram with #vernisi and your prompt number (ex. "Just finished my first design for #vernisi #01")
 
 4. Provide feedback to others who are doing the challenge
 
