@@ -1,5 +1,4 @@
 #Vernisi: Weekly Design Challenges
----
 
 ####Welcome!
 
@@ -16,5 +15,5 @@ How this will work:
 
 5. Become a better designer over the course of the year! 
 
-(If weekly prompts are too slow for you, you can also choose to receive challenges every day, every other day, or bi-weekly (every 4 days)— shoot us an email at hi@vernisi.co)
+*If weekly prompts are too slow for you, you can also choose to receive challenges every day, every other day, or bi-weekly (every 4 days)— shoot us an email at hi@vernisi.co*
 
