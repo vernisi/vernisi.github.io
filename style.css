@@ -23,6 +23,7 @@ div.footer-fixed-right{
 .footer-fixed-right{
 	font-size: 10px;
 	font-weight: 200;
+	color: #9B9B9B;
 }
 
 div a{
@@ -35,7 +36,7 @@ div a{
 }
 
 .card img{
-	width: 280px;
+	width: 300px;
 	height: auto;
 }
 
@@ -44,7 +45,7 @@ div a{
 }
 
 .roster{
-	margin: 5% auto 0 auto;
+	margin: 2.5% auto 0 auto;
 	text-align: center;
 	width: 800px;
 }
@@ -55,14 +56,15 @@ div a{
 }
 
 .roster img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(00%);
 }
 
 .roster img:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
  	transition: all 0.8s ease;
+ 	background-color: rgba(0,0,0,.5);
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,5 +77,13 @@ div a{
 		width: 100%;
 	}
 
+	div.footer-fixed-left{
+		font-size: 10px;
+		bottom: 2.5%;
+	}
 
+	div.footer-fixed-right{
+		font-size: 8px;
+		bottom: 2.5%;
+	}
 }
