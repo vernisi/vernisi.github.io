@@ -1,0 +1,89 @@
+html, body {
+	font-family: 'Work Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+div.footer-fixed-left{
+	position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+div.footer-fixed-right{
+	position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.footer-fixed-right{
+	font-size: 10px;
+	font-weight: 200;
+	color: #9B9B9B;
+}
+
+div a{
+	color: #000;
+	text-decoration: none;
+}
+
+.selected{
+	font-weight: 600;
+}
+
+.card img{
+	width: 300px;
+	height: auto;
+}
+
+.card{
+	display: inline;
+}
+
+.roster{
+	margin: 2.5% auto 0 auto;
+	text-align: center;
+	width: 800px;
+}
+
+
+.footer-fixed-left a:hover{
+	text-decoration: underline;
+}
+
+.roster img {
+    -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(00%);
+}
+
+.roster img:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+ 	transition: all 0.8s ease;
+ 	background-color: rgba(0,0,0,.5);
+}
+
+@media only screen and (max-width: 600px) {
+	.card img{
+		width: 180px;
+		height: auto;
+	}
+	.roster{
+		margin: 10% auto 0 auto;
+		width: 100%;
+	}
+
+	div.footer-fixed-left{
+		font-size: 10px;
+		bottom: 2.5%;
+	}
+
+	div.footer-fixed-right{
+		font-size: 8px;
+		bottom: 2.5%;
+	}
+}
