@@ -36,7 +36,7 @@ div a{
 }
 
 .card img{
-	width: 300px;
+	width: 240px;
 	height: auto;
 }
 
@@ -45,9 +45,9 @@ div a{
 }
 
 .roster{
-	margin: 2.5% auto 0 auto;
+	margin: 2.5% auto 2.5% auto;
 	text-align: center;
-	width: 800px;
+	width: 500px;
 }
 
 
