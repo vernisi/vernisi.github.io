@@ -42,8 +42,8 @@ body {
 
 .roster a img {
   transform: scale(1.025);
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(00%);
   transition: all 0.8s ease;
 }
 
