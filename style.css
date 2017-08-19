@@ -1,95 +1,83 @@
-html, body {
-	font-family: 'Work Sans', sans-serif;
-	margin: 0;
-	padding: 0;
+body {
+  width: 80%;
+  margin: 30px auto;
+  font-family: 'Work Sans', sans-serif;
 }
 
-.footer{
-	display: block;
+.roster {
+  font-size: 0;
 }
 
-#logo{
-	margin-top: 2.5%;
-	margin-left: 5%;
+.roster a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  pointer-events: none;
 }
 
-div.footer-fixed-left{
-	position: absolute;
-    left: 5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
-div.footer-fixed-right{
-	position: absolute;
-    right: 5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+.roster a:nth-of-type(2n) {
+  margin-right: 0;
 }
 
-.footer-fixed-right{
-	font-size: 10px;
-	font-weight: 200;
-	color: #9B9B9B;
+@media screen and (min-width: 50em) {
+  .roster a {
+    width: calc(25% - 6px);
+  }
+  
+  .roster a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  .roster a:nth-of-type(4n) {
+    margin-right: 0;
+  }
 }
 
-div a{
-	color: #000;
-	text-decoration: none;
+.roster a:hover img {
+  transform: scale(1.025);
 }
 
-.selected{
-	font-weight: 600;
+.roster a img {
+  transform: scale(1.025);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 0.8s ease;
 }
 
-.card img{
-	width: 240px;
-	height: auto;
-}
-
-.card{
-	display: inline;
-}
-
-.roster{
-	margin: 2.5% auto 2.5% auto;
-	text-align: center;
-	width: 500px;
-}
-
-
-.footer-fixed-left a:hover{
-	text-decoration: underline;
+figure {
+  margin: 0;
 }
 
 .roster img {
-    -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(000%);
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
 }
 
-.roster img:hover {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(00%);
- 	transition: all 0.8s ease;
- 	background-color: rgba(0,0,0,.5);
+#logo{
+  margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-	.card img{
-		width: 180px;
-		height: auto;
-	}
-	.roster{
-		margin: 10% auto 0 auto;
-		width: 100%;
-	}
+footer{
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 200;
+  color: #000;
+}
 
-	div.footer-fixed-left{
-		font-size: 14px;
-		bottom: 2.5%;
-	}
+footer a{
+  font-size: 14px;
+  font-weight: 200;
+  color: #000;
+  text-decoration: none;
+}
 
-	div.footer-fixed-right{
-		font-size: 8px;
-		bottom: 2.5%;
-	}
+footer a:hover{
+  text-decoration: underline;
 }
